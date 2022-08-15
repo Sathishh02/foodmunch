@@ -1,0 +1,1004 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"/>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/20c5629a29.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="foodmunch.css">
+</head>
+  <body>
+    <div id="section1">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img
+            src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/food-munch-img.png"
+            class="food-munch-logo"
+          />
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ml-auto">
+            <a class="nav-link active" id="navItem1" href="#wcuSection">
+              Why Choose Us?
+              <span class="sr-only">(current)</span>
+            </a>
+            <a class="nav-link" href="#exploreMenuSection" id="navItem2">Explore Menu</a>
+            <a class="nav-link" href="#deliveryPaymentSection" id="navItem3">Delivery & Payment</a>
+            <a class="nav-link" href="#followUsSection" id="navItem4">Follow Us</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="banner-section-bg-container d-flex justify-content-center flex-column">
+      <div class="text-center">
+        <h1 class="banner-heading mb-3">Get Delicious Food Anytime</h1>
+        <p class="banner-caption mb-4">Eat Smart & Healthy</p>
+        <a href="#exploreMenuSection"><button class="custom-button">View Menu</button> </a>
+        <a href="#deliveryPaymentSection"> <button class="custom-outline-button">Order Now </button> </a>
+      </div>
+    </div>
+    <div class="wcu-section pt-5 pb-5" id="wcuSection">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h1 class="wcu-section-heading">Why Choose Us?</h1>
+            <p class="wcu-section-description">
+              We use both original recipes and classic versions of famous food
+              items.
+            </p>
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="wcu-card p-3 mb-3">
+              <img
+                src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/food-serve.png"
+                class="wcu-card-image"
+              />
+              <h1 class="wcu-card-title mt-3">Food Service</h1>
+              <p class="wcu-card-description">
+                Experience fine dining at the comfort of your home. All our
+                orders are carefully packed and arranged to give you the nothing
+                less than perfect.
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="wcu-card p-3 mb-3">
+              <img
+                src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/fruits-img.png"
+                class="wcu-card-image"
+              />
+              <h1 class="wcu-card-title mt-3">Fresh Food</h1>
+              <p class="wcu-card-description">
+                The Fresh Food group provides fresh-cut fruits and vegetables
+                directly picked from our partner farms and farm houses so that
+                you always get them tree to plate.
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="wcu-card p-3 mb-3">
+              <img
+                src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/offers-img.png"
+                class="wcu-card-image"
+              />
+              <h1 class="wcu-card-title mt-3">Best Offers</h1>
+              <p class="wcu-card-description">
+                Food Coupons & Offers upto
+                <span class="offers">50% OFF</span>
+                and Exclusive Promo Codes on All Online Food Orders.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="explore-menu-section pt-5 pb-5" id="exploreMenuSection">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h1 class="menu-section-heading">Explore Menu</h1>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="shadow menu-item-card p-3 mb-3">
+              <img
+                src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/em-ginger-fried-img.png"
+                class="menu-item-image w-100"
+              />
+              <h1 class="menu-card-title">Non-Veg Starters</h1>
+              <a  class="menu-item-link" onclick="display('sectionNonveg')">
+                View All
+                <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    fill-rule="evenodd"
+                    d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="shadow menu-item-card p-3 mb-3">
+              <img
+                src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/em-veg-starters-img.png"
+                class="menu-item-image w-100"
+              />
+              <h1 class="menu-card-title">Veg Starters</h1>
+              <a class="menu-item-link" onclick="display('sectionveg')">
+                View All
+                <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    fill-rule="evenodd"
+                    d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="menu-item-card shadow p-3 mb-3">
+              <img
+                src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/em-soup-img.png"
+                class="menu-item-image w-100"
+              />
+              <h1 class="menu-card-title">Soups</h1>
+              <a onclick="display('sectionsoup')" class="menu-item-link">
+                View All
+                <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    fill-rule="evenodd"
+                    d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="menu-item-card shadow p-3 mb-3">
+              <img
+                src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/em-grilled-seafood-img.png"
+                class="menu-item-image w-100"
+              />
+              <h1 class="menu-card-title">Fish & Sea food</h1>
+              <a onclick="display('sectionfish')" class="menu-item-link">
+                View All
+                <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    fill-rule="evenodd"
+                    d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="menu-item-card shadow p-3 mb-3">
+              <img
+                src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/em-hyderabadi-biryani-img.png"
+                class="menu-item-image w-100"
+              />
+              <h1 class="menu-card-title">Main Course</h1>
+              <a onclick="display('sectionmain')" class="menu-item-link">
+                View All
+                <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    fill-rule="evenodd"
+                    d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="menu-item-card shadow p-3 mb-3">
+              <img
+                src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/em-mushroom-noodles-img.png"
+                class="menu-item-image w-100"
+              />
+              <h1 class="menu-card-title">Noodles</h1>
+              <a onclick="display('sectionnoodles')" class="menu-item-link">
+                View All
+                <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    fill-rule="evenodd"
+                    d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="menu-item-card shadow p-3 mb-3">
+              <img
+                src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/em-gluten-img.png"
+                class="menu-item-image w-100"
+              />
+              <h1 class="menu-card-title">Salads</h1>
+              <a onclick="display('sectionsalad')" class="menu-item-link">
+                View All
+                <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    fill-rule="evenodd"
+                    d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="menu-item-card shadow p-3 mb-3">
+              <img
+                src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/em-coffee-bourbon-img.png"
+                class="menu-item-image w-100"
+              />
+              <h1 class="menu-card-title">Desserts</h1>
+              <a onclick="display('sectionice')" class="menu-item-link">
+                View All
+                <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    fill-rule="evenodd"
+                    d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="healthy-food-section pt-5 pb-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-5">
+            <div class="text-center">
+              <img
+                src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/healthy-food-plate-img.png"
+                class="healthy-food-section-img"
+              />
+            </div>
+          </div>
+          <div class="col-12 col-md-7">
+            <h1 class="healthy-food-section-heading">
+              Fresh, Healthy, Organic, Delicious Fruits
+            </h1>
+            <p class="healthy-food-section-description">
+              Say no to harmful chemicals and go fully organic with our range of
+              fresh fruits and veggies. Pamper your body and your senses with
+              the true and unadulterated gifts from mother nature. with the true
+              and unadulterated gifts from mother nature.
+            </p>
+            <a href="https://youtu.be/SIXXujLiO1o" target="_blank"><button class="custom-button">Watch Video</button> </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="delivery-and-payment-section pt-5 pb-5" id="deliveryPaymentSection">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-5 order-1 order-md-2">
+            <div class="text-center">
+              <img
+                src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/delivery-payment-section-img.png"
+                class="delivery-and-payment-section-img"
+              />
+            </div>
+          </div>
+          <div class="col-12 col-md-7 order-2 order-md-1">
+            <h1 class="delivery-and-payment-section-heading">
+              Delivery and Payment
+            </h1>
+            <p class="delivery-and-payment-section-description">
+              Enjoy hassle-free payment with the plenitude of payment options
+              available for you. Get live tracking and locate your food on a
+              live map. It's quite a sight to see your food arrive to your door.
+              Plus, you get a 5% discount on every order every time you pay
+              online.
+            </p>
+            <div>
+                <button type="button" class="custom-button" data-toggle="modal" data-target="#exampleModal">
+                  Order now
+                </button>
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog mt-5">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title thanking-customers-section-modal-title " id="exampleModalLabel">
+                          Thank you for placing the order!!!
+                        </h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        <p> Your order is being prepared in the kitchen. Trust us, it'll be #Worth the wait! Wanna go for round 2? Please choose the items from explore menu section</p>
+                        <p class="th2">Estimated time:</p>
+                        <p> Your order will be delivered within 45mins to your location.</p>
+                    </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">
+                          Close
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            <div class="mt-3">
+              <img
+                src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/visa-card-img.png"
+                class="payment-card-img"
+              />
+              <img
+                src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/master-card-img.png"
+                class="payment-card-img"
+              />
+              <img
+                src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/paypal-card-img.png"
+                class="payment-card-img"
+              />
+              <img
+                src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/american-express-img.png"
+                class="payment-card-img"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="thanking-customers-section pt-5 pb-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-7 d-flex flex-column justify-content-center">
+            <h1 class="thanking-customers-section-heading">
+              Thank you for being a valuable customer to us.
+            </h1>
+            <p class="thanking-customers-section-description">
+              We have a surprise gift for you
+            </p>
+            <div class="d-md-none">
+              <img
+                src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/thanking-customers-section-img.png"
+                class="thanking-customers-section-img"
+              />
+            </div>
+            <div>
+              <button type="button" class="custom-button" data-toggle="modal" data-target="#exampleModal1">
+                Redeem Gift
+              </button>
+              <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel1" aria-hidden="true">
+                <div class="modal-dialog mt-5">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title thanking-customers-section-modal-title" id="exampleModalLabel1">
+                        Gift Voucher
+                      </h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <img
+                        src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/gift-voucher-img.png"
+                        class="w-100"
+                      />
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">
+                        Close
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-5 d-none d-md-block">
+            <img
+              src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/thanking-customers-section-img.png"
+              class="thanking-customers-section-img"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="follow-us-section pt-5 pb-5" id="followUsSection">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h1 class="follow-us-section-heading">Follow Us</h1>
+          </div>
+          <div class="col-12">
+            <div class="d-flex flex-row justify-content-center">
+              <div class="follow-us-icon-container">
+               <a href="https://www.youtube.com/channel/UCqfr1LHhZIsTtTWCE3BvqFQ" target="_blank"> <i class="fab fa-youtube icon"></i> </a>
+              </div>
+              <div class="follow-us-icon-container">
+                <a href="https://instagram.com/foodmunch/" target="_blank"> <i class="fab fa-instagram icon"></i> </a>
+              </div>
+              <div class="follow-us-icon-container">
+                <a href="https://www.facebook.com/Thefoodmunch" target="_blank"> <i class="fab fa-facebook icon"></i> </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-section pt-5 pb-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center">
+            <img
+              src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/food-munch-logo-light.png"
+              class="food-munch-logo"
+            />
+            <h1 class="footer-section-mail-id">sathish@foodmunch.com</h1>
+            <p class="footer-section-address">
+              123 Ayur Vigyan Nagar, Chennai, India.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+
+    <div class="bgclr pt-5 pb-5" id="sectionNonveg">
+        <div class="container">
+            <h1 class="th1"> Non-Veg Starters  </h1> 
+            <hr/>
+            <div class="row">
+                <div class="  col-12 col-md-6 mb-3">
+                    <div class=" shadow card1 d-flex">
+                        <img src="https://ranveerbrar.com/wp-content/uploads/2021/02/hawaian-chicken-drumsticks-1-310x310.jpg" class="img1"/>
+                        <div class="pl-3">
+                            <h1 class="th2">Hawaiian Chicken Drumsticks </h1>
+                            <p class="p1">Chicken and Special chicken masala </p>
+                            <p>$19</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="  col-12 col-md-6   mb-3">
+                    <div class=" shadow card1 d-flex">
+                        <img src="https://ranveerbrar.com/wp-content/uploads/2022/07/Schezwan-frankie-310x310.jpg" class="img1"/>
+                        <div class="pl-3">
+                            <h1 class="th2">Schezwan Frankie Roll </h1>
+                            <p class="p1">Rotti, Chicken peices and Secret spices </p>
+                            <p>$10</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="  col-12 col-md-6  mb-3">
+                    <div class=" shadow card1 d-flex">
+                        <img src="https://ranveerbrar.com/wp-content/uploads/2022/07/Non-veg-pakoda-310x310.jpg" class="img1"/>
+                        <div class="pl-3">
+                            <h1 class="th2"> Mixed Pakora Non Veg </h1>
+                            <p class="p1"> Roasted masala egg ith mint chutney </p>
+                            <p>$20</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="  col-12 col-md-6  mb-3">
+                    <div class=" shadow card1 d-flex">
+                        <img src="https://ranveerbrar.com/wp-content/uploads/2021/02/malabari-green-masala-fish-fry--310x310.jpg" class="img1"/>
+                        <div class="pl-3">
+                            <h1 class="th2"> Malabari Green Masala Fish </h1>
+                            <p class="p1"> Malabari fish and Secret malabar spices </p>
+                            <p>$29</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="  col-12 col-md-6   mb-3">
+                    <div class=" shadow card1 d-flex">
+                        <img src="https://ranveerbrar.com/wp-content/uploads/2022/06/Street-style-chicken-lolipop-310x310.jpg" class="img1"/>
+                        <div class="pl-3">
+                            <h1 class="th2">Chicken lolipop </h1>
+                            <p class="p1">Chicken, Special chicken masala </p>
+                            <p>$20</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="  col-12 col-md-6  mb-3">
+                    <div class=" shadow card1 d-flex">
+                        <img src="https://ranveerbrar.com/wp-content/uploads/2022/05/Mughlai-paratha-310x310.jpg" class="img1"/>
+                        <div class="pl-3">
+                            <h1 class="th2">Mughlai Paratha </h1>
+                            <p class="p1"> Paratha and utton keema </p>
+                            <p>$26 </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br/>
+            <div class="text-center" onclick="display('section1')" >
+                <button class="custom-button"> back </button>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="bgclr pt-5 pb-5" id="sectionveg">
+        <div class="container">
+            <h1 class="th1"> Veg Starters </h1>
+            <hr />
+            <div class="row">
+                <div class="  col-12 col-md-6  mb-3">
+                    <div class=" shadow card1 d-flex">
+                        <img src="https://www.spiceupthecurry.com/wp-content/uploads/2022/07/air-fryer-zucchini-chips-2.jpg" class="img1" />
+                        <div class="pl-3">
+                            <h1 class="th2">Air fryer zucchini chips </h1>
+                            <p class="p1"> Panko crusted </p>
+                            <p>$10</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="  col-12 col-md-6   mb-3">
+                    <div class=" shadow card1 d-flex">
+                        <img src="https://www.spiceupthecurry.com/wp-content/uploads/2022/05/batata-vada-2.jpg" class="img1" />
+                        <div class="pl-3">
+                            <h1 class="th2">Batata-vada </h1>
+                            <p class="p1"> Medium sized vada 5pc </p>
+                            <p>$15</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="  col-12 col-md-6  mb-3">
+                    <div class=" shadow card1 d-flex">
+                        <img src="https://www.spiceupthecurry.com/wp-content/uploads/2022/04/bang-bang-cauliflower-1.jpg" class="img1" />
+                        <div class="pl-3">
+                            <h1 class="th2"> Chilli-cauliflower </h1>
+                            <p class="p1"> Cauliflower(air fried) </p>
+                            <p>$20</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="  col-12 col-md-6  mb-3">
+                    <div class=" shadow card1 d-flex">
+                        <img src="https://www.spiceupthecurry.com/wp-content/uploads/2022/03/pani-puri-recipe-2.jpg" class="img1" />
+                        <div class="pl-3">
+                            <h1 class="th2"> Pani puri </h1>
+                            <p class="p1"> Masala water and stuffing </p>
+                            <p>$5</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="  col-12 col-md-6   mb-3">
+                    <div class=" shadow card1 d-flex">
+                        <img src="https://www.spiceupthecurry.com/wp-content/uploads/2022/01/Air-fryer-falafel.jpg" class="img1" />
+                        <div class="pl-3">
+                            <h1 class="th2"> Air fryer falafel </h1>
+                            <p class="p1"> Streamed, fried, Airfried </p>
+                            <p>$18</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="  col-12 col-md-6  mb-3">
+                    <div class=" shadow card1 d-flex">
+                        <img src="https://www.spiceupthecurry.com/wp-content/uploads/2021/12/Palak-soup-1.jpg" class="img1" />
+                        <div class="pl-3">
+                            <h1 class="th2"> Palak soup </h1>
+                            <p class="p1"> Spinach soup </p>
+                            <p>$6 </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center" onclick="display('section1')">
+                <button class="custom-button"> back </button>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="bgclr pt-5 pb-5" id="sectionsoup">
+        <div class="container">
+            <h1 class="th1"> Soups </h1>
+            <hr />
+            <div class="row">
+                <div class="  col-12 col-md-6  mb-3">
+                    <div class=" shadow card1 d-flex">
+                        <img src="https://c.ndtvimg.com/2020-12/efdithe_beetroot-soup-recipe_120x90_26_December_20.jpg" class="img1" />
+                        <div class="pl-3">
+                            <h1 class="th2">Beetroot soup</h1>
+                            <p class="p1"> Spiced chicken and beetroot </p>
+                            <p>$5</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="  col-12 col-md-6   mb-3">
+                    <div class=" shadow card1 d-flex">
+                        <img src="https://www.ndtv.com/cooks/images/IMG_20161206_161318.1.jpg" class="img1" />
+                        <div class="pl-3">
+                            <h1 class="th2">Sea food broth </h1>
+                            <p class="p1"> Tomatoes, onions and squid </p>
+                            <p>$10</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="  col-12 col-md-6   mb-3">
+                    <div class=" shadow card1 d-flex">
+                        <img src="https://www.ndtv.com/cooks/images/pork-broth-guppy.jpg" class="img1" />
+                        <div class="pl-3">
+                            <h1 class="th2"> Pork broth </h1>
+                            <p class="p1"> Veggies and pork </p>
+                            <p>$10</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="  col-12 col-md-6   mb-3">
+                    <div class=" shadow card1 d-flex">
+                        <img src="https://i.ndtvimg.com/i/2018-01/mushroom-soup_300x200_81515485679.jpg" class="img1" />
+                        <div class="pl-3">
+                            <h1 class="th2"> Mushroom soup </h1>
+                            <p class="p1"> Mushroom and Veggies </p>
+                            <p>$9</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center" onclick="display('section1')">
+                <button class="custom-button"> back </button>
+            </div>
+        </div>
+    </div>
+    <div class="bgclr pt-5 pb-5" id="sectionfish">
+        <div class="container">
+            <h1 class="th1"> Fish & Sea food </h1>
+            <hr />
+            <div class="row">
+                <div class="  col-12 col-md-6  mb-3">
+                    <div class=" shadow card1 d-flex">
+                        <img src="https://www.msc.org/images/default-source/msc-english/content-banner/recipes-500x500/scallop-and-squash-salad.tmb-medium500.jpg?sfvrsn=185ce_1" class="img1" />
+                        <div class="pl-3">
+                            <h1 class="th2"> Warm salad of scallops </h1>
+                            <p class="p1">  Roasted squash, radishes... </p>
+                            <p> $50 </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="  col-12 col-md-6   mb-3">
+                    <div class=" shadow card1 d-flex">
+                        <img src="https://www.msc.org/images/default-source/uk-library/recipes---500x500-500x188/square_sardines7a5e1b0c92124aa29cb3c7840a143c3f.tmb-medium500.jpg?sfvrsn=7de17f71_1" class="img1" />
+                        <div class="pl-3">
+                            <h1 class="th2"> Zesty tinned fish </h1>
+                            <p class="p1"> Tinned fish served with mustard sauce </p>
+                            <p>$35</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="  col-12 col-md-6   mb-3">
+                    <div class=" shadow card1 d-flex">
+                        <img src="https://www.msc.org/images/default-source/msc-english/content-banner/recipes-500x500/recipe_scouts-lobster-rolls_website-low-res9d4bb9c2a88446a887bb78be7d430d0e.tmb-medium500.jpg " class="img1" />
+                        <div class="pl-3">
+                            <h1 class="th2"> Scout's lobster rolls  </h1>
+                            <p class="p1"> Lobster and Wheat bread </p>
+                            <p>$20</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="  col-12 col-md-6   mb-3">
+                    <div class=" shadow card1 d-flex">
+                        <img src="https://www.msc.org/images/default-source/msc-english/content-banner/recipes-500x500/creamy-scallops-and-shallots.tmb-medium500.jpg?sfvrsn=9eb9b97a_1" class="img1" />
+                        <div class="pl-3">
+                            <h1 class="th2"> Creamy scallops and shallots </h1>
+                            <p class="p1"> Scallops and Shallots </p>
+                            <p>$29</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="  col-12 col-md-6   mb-3">
+                    <div class=" shadow card1 d-flex">
+                        <img src="https://www.msc.org/images/default-source/msc-english/content-banner/recipes-500x500/stacked-wild-prawn-salad-scott-gooding.tmb-medium500.png?sfvrsn=e8ca0043_1" class="img1" />
+                        <div class="pl-3">
+                            <h1 class="th2"> Wild prawn salad </h1>
+                            <p class="p1">Served with citrus and avocado emulsion </p>
+                            <p>$60</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="  col-12 col-md-6   mb-3">
+                    <div class=" shadow card1 d-flex">
+                        <img src="https://www.msc.org/images/default-source/msc-english/content-banner/recipes-500x500/wild-prawn-salad-scott-gooding-(1).tmb-medium500.png?sfvrsn=24e01ad3_1" class="img1" />
+                        <div class="pl-3">
+                            <h1 class="th2"> Wild tiger prawn salad </h1>
+                            <p class="p1"> Tiger prawn and Veggies </p>
+                            <p>$46 </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center" onclick="display('section1')">
+                <button class="custom-button"> back </button>
+            </div>
+        </div>
+    </div>
+    <div class="bgclr pt-5 pb-5" id="sectionmain">
+        <div class="container">
+            <h1 class="th1"> Main Course </h1>
+            <hr />
+            <div class="row">
+                <div class="  col-12 col-md-6  mb-3">
+                    <div class=" shadow card1 d-flex">
+                        <img src="https://picturetherecipe.com/wp-content/uploads/2020/07/Butter-Chicken-PTR-Featured-395x500.jpg" class="img1" />
+                        <div class="pl-3">
+                            <h1 class="th2"> BUTTER CHICKEN </h1>
+                            <p class="p1"> Served with rice and naan </p>
+                            <p>$29</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="  col-12 col-md-6   mb-3">
+                    <div class=" shadow card1 d-flex">
+                        <img src="https://picturetherecipe.com/wp-content/uploads/2020/01/Rogan-Josh-by-PictureTheRecipe-Featured-1-395x500.jpg" class="img1" />
+                        <div class="pl-3">
+                            <h1 class="th2">ROGAN JOSH </h1>
+                            <p class="p1">Mutton/Lamb in a kashmiri chilli pepper gravy  </p>
+                            <p> $50</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="  col-12 col-md-6   mb-3">
+                    <div class=" shadow card1 d-flex">
+                        <img src="https://picturetherecipe.com/wp-content/uploads/2019/07/Grilled-Chicken-with-Fresh-Cherry-Salsa-Featured-1-395x500.jpg" class="img1" />
+                        <div class="pl-3">
+                            <h1 class="th2">GRILLED CHICKEN </h1>
+                            <p class="p1"> Served with fresh cherry salsa </p>
+                            <p>$30</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="  col-12 col-md-6   mb-3">
+                    <div class=" shadow card1 d-flex">
+                        <img src="https://picturetherecipe.com/wp-content/uploads/2018/06/Bombay-Grilled-Chutney-Sandwich-Featured-PictureTheRecipe-395x500.jpg" class="img1" />
+                        <div class="pl-3">
+                            <h1 class="th2"> BOMBAY GRILLED CHUTNEY SANDWICH </h1>
+                            <p class="p1"> Wheat bread and Veggies </p>
+                            <p>$29</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="  col-12 col-md-6   mb-3">
+                    <div class=" shadow card1 d-flex">
+                        <img src="https://picturetherecipe.com/wp-content/uploads/2018/05/Bombay-Sloppy-Joes-PictureTheRecipe-Featured-395x500.jpg" class="img1" />
+                        <div class="pl-3">
+                            <h1 class="th2"> BOMBAY SLOPPY JOES </h1>
+                            <p class="p1"> Kheema pav </p>
+                            <p>$20</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="  col-12 col-md-6   mb-3">
+                    <div class=" shadow card1 d-flex">
+                        <img src="https://picturetherecipe.com/wp-content/uploads/2018/03/Chili-Garlic-Beef-with-Zoodle-Stir-Fry-PictureTheRecipe-Featured-395x500.jpg" class="img1" />
+                        <div class="pl-3">
+                            <h1 class="th2"> CHILI- GARLIC MUTTON </h1>
+                            <p class="p1"> Served with stir fried noodles </p>
+                            <p> $56 </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center" onclick="display('section1')">
+                <button class="custom-button"> back </button>
+            </div>
+        </div>
+    </div>
+    <div class="bgclr pt-5 pb-5" id="sectionnoodles">
+        <div class="container">
+            <h1 class="th1"> Noodles </h1>
+            <hr />
+            <div class="row">
+                <div class="  col-12 col-md-6  mb-3">
+                    <div class=" shadow card1 d-flex">
+                        <img src="https://images.noodles.com/f00000000269542/www.noodles.com/wp-content/uploads/2020/01/67292-ML_OrangeChxBasic_72dpi_rgb_OLO_OH-768x512.png" class="img1" />
+                        <div class="pl-3">
+                            <h1 class="th2"> Grilled orange chicken Lo mein </h1>
+                            <p class="p1"> Asian-style noodles sautéed in orange sauce </p>
+                            <p>$20</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="  col-12 col-md-6   mb-3">
+                    <div class=" shadow card1 d-flex">
+                        <img src="https://images.noodles.com/f00000000269542/www.noodles.com/wp-content/uploads/2019/12/ML_JapanesePan_V3_72dpi_rgb_OLO_OH.png" class="img1" />
+                        <div class="pl-3">
+                            <h1 class="th2"> Japanese Pan Noodles </h1>
+                            <p class="p1"> Caramelized udon noodles in a sweet soy sauce </p>
+                            <p>$35</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="  col-12 col-md-6   mb-3">
+                    <div class=" shadow card1 d-flex">
+                        <img src="https://images.noodles.com/f00000000269542/www.noodles.com/wp-content/uploads/2018/04/PadThai72dpirgbOOOH.png" class="img1" />
+                        <div class="pl-3">
+                            <h1 class="th2"> Pad Thai </h1>
+                            <p class="p1"> Rice noodle stir-fry with scrambled egg </p>
+                            <p>$29</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="  col-12 col-md-6   mb-3">
+                    <div class=" shadow card1 d-flex">
+                        <img src="https://images.noodles.com/f00000000269542/www.noodles.com/wp-content/uploads/2018/03/ML_SKBN-LoMein_72dpi_rgb_OLO_OH.png" class="img1" />
+                        <div class="pl-3">
+                            <h1 class="th2">Spicy Korean Chicken Noodles </h1>
+                            <p class="p1"> Asian-style noodles tossed with a sweet and spicy </p>
+                            <p>$49</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="  col-12 col-md-6   mb-3">
+                    <div class=" shadow card1 d-flex">
+                        <img src="https://images.noodles.com/f00000000269542/www.noodles.com/wp-content/uploads/2020/06/ML_JapanesePanTofu_72dpi_rgb_OLO_OH.png" class="img1" />
+                        <div class="pl-3">
+                            <h1 class="th2">Japanese Pan Noodles with Tofu </h1>
+                            <p class="p1"> A vegetarian favorite of caramelized udon noodles</p>
+                            <p>$50</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="  col-12 col-md-6   mb-3">
+                    <div class=" shadow card1 d-flex">
+                        <img src="https://images.noodles.com/f00000000269542/www.noodles.com/wp-content/uploads/2020/06/ML_Z_OnionCreamGrChx_72dpi_rgb_OLO_OH.png" class="img1" />
+                        <div class="pl-3">
+                            <h1 class="th2">Zucchini Roasted Garlic </h1>
+                            <p class="p1"> A creamy and paleo-friendly combination of zucchini noodles </p>
+                            <p>$46 </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center" onclick="display('section1')">
+                <button class="custom-button"> back </button>
+            </div>
+        </div>
+    </div>
+    <div class="bgclr pt-5 pb-5" id="sectionsalad">
+        <div class="container">
+            <h1 class="th1"> Salads </h1>
+            <hr />
+            <div class="row">
+                <div class="  col-12 col-md-6  mb-3">
+                    <div class=" shadow card1 d-flex">
+                        <img src="https://c.ndtvimg.com/2022-05/m2cuid_egg-salad_120x90_24_May_22.jpg" class="img1" />
+                        <div class="pl-3">
+                            <h1 class="th2"> Potato And Egg Salad </h1>
+                            <p class="p1"> Combination of Potato And Egg </p>
+                            <p>$19</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="  col-12 col-md-6   mb-3">
+                    <div class=" shadow card1 d-flex">
+                        <img src="https://c.ndtvimg.com/2022-02/grsadl6_chicken_120x90_15_February_22.jpg" class="img1" />
+                        <div class="pl-3">
+                            <h1 class="th2">Chicken Shawarma Salad </h1>
+                            <p class="p1"> Combination Chicken and Veggies </p>
+                            <p>$10</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="  col-12 col-md-6   mb-3">
+                    <div class=" shadow card1 d-flex">
+                        <img src="https://c.ndtvimg.com/2021-05/a42tr85_crispy-noodle_120x90_06_May_21.jpg" class="img1" />
+                        <div class="pl-3">
+                            <h1 class="th2"> Crispy Noodle Salad </h1>
+                            <p class="p1"> Combination of Noodles and Veggies </p>
+                            <p>$13</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="  col-12 col-md-6   mb-3">
+                    <div class=" shadow card1 d-flex">
+                        <img src="https://c.ndtvimg.com/2021-04/kicv1uag_green-thai-salad_120x90_28_April_21.jpg" class="img1" />
+                        <div class="pl-3">
+                            <h1 class="th2"> Som Tam </h1>
+                            <p class="p1"> Raw Papaya Salad </p>
+                            <p>$9</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="  col-12 col-md-6   mb-3">
+                    <div class=" shadow card1 d-flex">
+                        <img src="https://www.ndtv.com/cooks/images/620-16.jpg" class="img1" />
+                        <div class="pl-3">
+                            <h1 class="th2"> Sprouts Corn Salad </h1>
+                            <p class="p1"> A Mixed Sprouts Corn Chaat </p>
+                            <p>$20</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="  col-12 col-md-6   mb-3">
+                    <div class=" shadow card1 d-flex">
+                        <img src="https://c.ndtvimg.com/0uqhajo_salad_120x90_09_August_18.jpg" class="img1" />
+                        <div class="pl-3">
+                            <h1 class="th2"> Mixed Beans Salad </h1>
+                            <p class="p1"> Combination of Beans and Veggies </p>
+                            <p>$16 </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center" onclick="display('section1')">
+                <button class="custom-button"> back </button>
+            </div>
+        </div>
+    </div>
+    <div class="bgclr pt-5 pb-5" id="sectionice">
+        <div class="container">
+            <h1 class="th1"> Desserts  </h1>
+            <hr />
+            <div class="row">
+                <div class="  col-12 col-md-6  mb-3">
+                    <div class=" shadow card1 d-flex">
+                        <img src="https://img.taste.com.au/pGqE8MUL/w354-h236-cfill-q80/taste/2016/11/snickers-rolls-26145-1.jpeg" class="img1" />
+                        <div class="pl-3">
+                            <h1 class="th2">Snicker rolls </h1>
+                            <p class="p1"> Contains lactose, groundnut, gluten, wheat and tree nut. </p>
+                            <p>$9</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="  col-12 col-md-6   mb-3">
+                    <div class=" shadow card1 d-flex">
+                        <img src="https://img.taste.com.au/-BrnXIJO/w720-h480-cfill-q80/taste/2016/11/affogato-16835-1.jpeg" class="img1" />
+                        <div class="pl-3">
+                            <h1 class="th2"> Affogato </h1>
+                            <p class="p1"> Contains tree nut, milk, lactose and caffeine. </p>
+                            <p>$12</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="  col-12 col-md-6   mb-3">
+                    <div class=" shadow card1 d-flex">
+                        <img src="https://img.taste.com.au/A44rS2iU/w354-h236-cfill-q80/taste/2016/11/aniseed-and-chocolate-parfait-24770-1.jpeg" class="img1" />
+                        <div class="pl-3">
+                            <h1 class="th2"> Aniseed and chocolate parfait </h1>
+                            <p class="p1"> Contains gluten, peanuts, tree nuts, milk and sesame. </p>
+                            <p>$20</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="  col-12 col-md-6   mb-3">
+                    <div class=" shadow card1 d-flex">
+                        <img src="https://img.taste.com.au/skmHCocK/w354-h236-cfill-q80/taste/2016/11/chocolate-bullets-4280-1.jpeg" class="img1" />
+                        <div class="pl-3">
+                            <h1 class="th2"> Chocolate bullets </h1>
+                            <p class="p1"> Contains milk, lactose, alcohol and soybean. </p>
+                            <p>$19</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="  col-12 col-md-6   mb-3">
+                    <div class=" shadow card1 d-flex">
+                        <img src="https://img.taste.com.au/FfZyc_P0/w354-h236-cfill-q80/taste/2016/11/napoleon-10469-1.jpeg" class="img1" />
+                        <div class="pl-3">
+                            <h1 class="th2"> Napoleon </h1>
+                            <p class="p1">Contains gluten, wheat, egg, milk and lactose.</p>
+                            <p>$20</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="  col-12 col-md-6   mb-3">
+                    <div class=" shadow card1 d-flex">
+                        <img src="https://img.taste.com.au/GvZRUFNA/w354-h236-cfill-q80/taste/2016/11/angel-food-cake-100041-1.jpeg" class="img1" />
+                        <div class="pl-3">
+                            <h1 class="th2"> Angel food cake </h1>
+                            <p class="p1">  Contains gluten, wheat, egg, sulphites and alcohol. </p>
+                            <p>$26 </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center" onclick="display('section1')">
+                <button class="custom-button"> back </button>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>  
+</body>
+</html>
